@@ -1,7 +1,7 @@
 // assume node has .right and .left properties
 
 function invertNode(node) {
-    if (!node.left && !node.right) return;
+    if (!node) return;
 
     const leftTmp = node.left;
     node.left = node.right;
