@@ -1,2 +1,4 @@
 .prettierrc
 *.exe
+.lsp
+.clj-kondo
